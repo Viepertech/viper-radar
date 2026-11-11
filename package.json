@@ -1,0 +1,13 @@
+{
+  "name": "viper-radar",
+  "version": "1.0.0",
+  "description": "Retro radar scope showing live aircraft from the OpenSky Network",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "snapshot": "node scripts/fetch-snapshot.mjs",
+    "start": "python3 -m http.server 8000"
+  },
+  "engines": { "node": ">=20" }
+}
